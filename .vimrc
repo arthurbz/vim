@@ -1,3 +1,7 @@
+set encoding=utf-8
+set fileencoding=utf-8
+set termencoding=utf-8
+
 "Start VIm with Vundle"
 set rtp+=~/.vim/Vundle.vim
 
@@ -5,6 +9,8 @@ set rtp+=~/.vim/Vundle.vim
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'preservim/nerdtree'
+Plugin 'jiangmiao/auto-pairs'
+"Plugin 'vim-airline/vim-airline'"
 call vundle#end()
 
 filetype plugin indent on
@@ -37,7 +43,5 @@ set incsearch
 set noswapfile
 set tabstop=4
 set softtabstop=4
-set noexpandtab
 set expandtab
 set clipboard=unnamedplus
-colorscheme darkblue
