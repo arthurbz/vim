@@ -2,7 +2,11 @@
   // Workbench
   "workbench.startupEditor": "none",
   "workbench.colorTheme": "GitHub Dark Default",
+  "workbench.editor.enablePreview": false,
+  "workbench.activityBar.location": "top",
   "workbench.iconTheme": "material-icon-theme",
+  "workbench.editor.editorActionsLocation": "hidden",
+  "workbench.layoutControl.enabled": false,
 
   // Cursor
   "cursor.chat.terminalShowHoverHint": false,
@@ -58,6 +62,7 @@
   "debug.javascript.autoAttachFilter": "onlyWithFlag",
 
   // Language Specific
+  "prettier.prettierPath": "/Users/arthurbz/.nvm/versions/node/v22.13.1/lib/node_modules/prettier",
   "javascript.updateImportsOnFileMove.enabled": "prompt",
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
